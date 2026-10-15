@@ -1,0 +1,3 @@
+account_number,account_holder_name,age,balance,account_type,status,pin,opening_date,overdraft_used,interest_earned
+1001,Rajesh Sharma,25,50000.00,Savings,Active,1234,2026-08-28,0.00,0.00
+1002,Priya Patel,25,40000.00,Current,Active,0,2026-08-28,0.00,0.00
