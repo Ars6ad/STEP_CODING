@@ -35,7 +35,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 1: Implement load()
+    //  STEP 1: Implement load()
     //
     // INSTRUCTIONS:
     //   Read accounts from filePath and populate the memory cache.
@@ -45,7 +45,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 2: Implement flush()
+    //  STEP 2: Implement flush()
     //
     // INSTRUCTIONS:
     //   Serialize cache to CSV lines and write using AtomicFileWriter.
@@ -55,7 +55,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 3: Implement save(IAccount account)
+    //  STEP 3: Implement save(IAccount account)
     // ============================================================
     @Override
     public synchronized void save(IAccount account) {
@@ -63,7 +63,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 4: Implement findById(int accountNumber)
+    //  STEP 4: Implement findById(int accountNumber)
     // ============================================================
     @Override
     public synchronized IAccount findById(int accountNumber) {
@@ -72,7 +72,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 5: Implement findAll()
+    //  STEP 5: Implement findAll()
     // ============================================================
     @Override
     public synchronized List<IAccount> findAll() {
@@ -81,7 +81,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 6: Implement update(IAccount account)
+    //  STEP 6: Implement update(IAccount account)
     // ============================================================
     @Override
     public synchronized void update(IAccount account) {
@@ -89,7 +89,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 7: Implement delete(int accountNumber)
+    //  STEP 7: Implement delete(int accountNumber)
     // ============================================================
     @Override
     public synchronized void delete(int accountNumber) {
@@ -97,7 +97,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 8: Implement exists(int accountNumber)
+    //  STEP 8: Implement exists(int accountNumber)
     // ============================================================
     @Override
     public synchronized boolean exists(int accountNumber) {
@@ -106,7 +106,7 @@ public class FileAccountRepository implements AccountRepository {
     }
 
     // ============================================================
-    // 📝 STEP 9: Implement nextAccountNumber()
+    //  STEP 9: Implement nextAccountNumber()
     // ============================================================
     @Override
     public synchronized int nextAccountNumber() {
