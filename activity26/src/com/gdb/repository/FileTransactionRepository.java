@@ -35,7 +35,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 1: Implement load() and flush()
+    //  STEP 1: Implement load() and flush()
     // ============================================================
     public synchronized void load() {
         // TODO: Step 1 - Load transactions from file into cache
@@ -46,7 +46,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 2: Implement save(Transaction transaction)
+    //  STEP 2: Implement save(Transaction transaction)
     // ============================================================
     @Override
     public synchronized void save(Transaction transaction) {
@@ -54,7 +54,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 3: Implement findByAccount(int accountNumber)
+    //  STEP 3: Implement findByAccount(int accountNumber)
     // ============================================================
     @Override
     public synchronized List<Transaction> findByAccount(int accountNumber) {
@@ -63,7 +63,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 4: Implement findAll()
+    //  STEP 4: Implement findAll()
     // ============================================================
     @Override
     public synchronized List<Transaction> findAll() {
@@ -72,7 +72,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 5: Implement clear()
+    //  STEP 5: Implement clear()
     // ============================================================
     @Override
     public synchronized void clear() {
@@ -80,7 +80,7 @@ public class FileTransactionRepository implements TransactionRepository {
     }
 
     // ============================================================
-    // 📝 STEP 6: Implement transfer(int fromAccountNumber, int toAccountNumber, double amount)
+    //  STEP 6: Implement transfer(int fromAccountNumber, int toAccountNumber, double amount)
     // ============================================================
     @Override
     public synchronized void transfer(int fromAccountNumber, int toAccountNumber, double amount) {
