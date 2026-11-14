@@ -10,7 +10,7 @@ import java.util.List;
 public class AtomicFileWriter {
 
     // ============================================================
-    // 📝 STEP 1: Implement write(String path, List<String> lines)
+    //  STEP 1: Implement write(String path, List<String> lines)
     //
     // INSTRUCTIONS:
     //   1. Create parent directories if they don't exist.
