@@ -21,17 +21,17 @@ public class TestFileRepository {
         new File(txnPath).delete();
 
         // ============================================================
-        // 📝 STEP 18: Test FileAccountRepository CRUD & Disk Persistence
+        // STEP 18: Test FileAccountRepository CRUD & Disk Persistence
         // ============================================================
         // TODO: test save, findById, update, delete on FileAccountRepository
 
         // ============================================================
-        // 📝 STEP 19: Test FileTransactionRepository & CSV Logging
-        // ============================================================
+        // STEP 19: Test FileTransactionRepository & CSV Logging
+        // ===========================================================
         // TODO: test save, findByAccount, findAll, clear on FileTransactionRepository
 
         // ============================================================
-        // 📝 STEP 20: Test Backup Creation
+        // STEP 20: Test Backup Creation
         // ============================================================
         // TODO: verify backup files exist in directory after operations
 
