@@ -67,7 +67,7 @@ public class AccountRulesEngine {
         rulesMap = new ConcurrentHashMap<>();
         String[] accountTypes = {"SAVINGS", "CURRENT", "FIXEDDEPOSIT", "SALARY"};
         
-        System.out.println("\n📂 Loading account rules from properties files...");
+        System.out.println("\n Loading account rules from properties files...");
         System.out.println("-".repeat(50));
         
         for (String type : accountTypes) {
@@ -80,7 +80,7 @@ public class AccountRulesEngine {
         loaded = true;
         lastLoadTime = java.time.LocalDateTime.now().toString();
         System.out.println("-".repeat(50));
-        System.out.println("✅ All rules loaded successfully!");
+        System.out.println(" All rules loaded successfully!");
         System.out.println("   Loaded at: " + lastLoadTime);
         System.out.println("   Account types: " + rulesMap.keySet());
     }
@@ -89,9 +89,9 @@ public class AccountRulesEngine {
      * Hot reload - reload all rules without restarting the application.
      */
     public synchronized void reloadRules() {
-        System.out.println("\n🔄 Reloading rules...");
+        System.out.println("\n Reloading rules...");
         loadAllRules();
-        System.out.println("✅ Rules reloaded successfully!");
+        System.out.println(" Rules reloaded successfully!");
     }
     
     // ===== Helper Methods =====
@@ -172,7 +172,7 @@ public class AccountRulesEngine {
     public void printAllRules() {
         System.out.println("\n=== ALL ACCOUNT RULES (FROM PROPERTIES FILES) ===");
         for (String type : rulesMap.keySet()) {
-            System.out.println("\n📁 " + type + ":");
+            System.out.println("\n " + type + ":");
             Map<Integer, Rule> rules = rulesMap.get(type);
             for (Map.Entry<Integer, Rule> entry : rules.entrySet()) {
                 int bucket = entry.getKey();
