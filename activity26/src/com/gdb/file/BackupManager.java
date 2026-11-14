@@ -11,7 +11,7 @@ import java.util.*;
 public class BackupManager {
 
     // ============================================================
-    // 📝 STEP 6: Implement backup(String path, int maxBackups)
+    //  STEP 6: Implement backup(String path, int maxBackups)
     //
     // INSTRUCTIONS:
     //   1. If target path does not exist, return early.
