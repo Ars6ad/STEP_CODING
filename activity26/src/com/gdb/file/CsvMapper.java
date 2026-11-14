@@ -14,7 +14,7 @@ public class CsvMapper {
     public static final String TRANSACTION_HEADER = "transaction_id,timestamp,account_number,type,amount,balance_after,status,from_account,to_account,description";
 
     // ============================================================
-    // 📝 STEP 1: Implement toCsv(IAccount account)
+    //  STEP 1: Implement toCsv(IAccount account)
     //
     // INSTRUCTIONS:
     //   Format account fields as comma-separated string matching ACCOUNT_HEADER.
@@ -25,7 +25,7 @@ public class CsvMapper {
     }
 
     // ============================================================
-    // 📝 STEP 2: Implement fromCsv(String line)
+    //  STEP 2: Implement fromCsv(String line)
     //
     // INSTRUCTIONS:
     //   Parse CSV line and reconstruct appropriate IAccount subclass using AccountFactory.
@@ -36,7 +36,7 @@ public class CsvMapper {
     }
 
     // ============================================================
-    // 📝 STEP 3: Implement toCsv(Transaction transaction)
+    //  STEP 3: Implement toCsv(Transaction transaction)
     //
     // INSTRUCTIONS:
     //   Format transaction fields matching TRANSACTION_HEADER.
@@ -47,7 +47,7 @@ public class CsvMapper {
     }
 
     // ============================================================
-    // 📝 STEP 4: Implement fromCsvTransaction(String line)
+    //  STEP 4: Implement fromCsvTransaction(String line)
     //
     // INSTRUCTIONS:
     //   Parse CSV line and reconstruct Transaction model.
