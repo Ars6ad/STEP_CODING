@@ -102,14 +102,14 @@ public class TestAccountRulesEngineProperties {
         System.out.println("  2. Call engine.reloadRules()");
         System.out.println("  3. Changes take effect immediately without restart");
         System.out.println();
-        System.out.println("💡 This is a production-grade feature for:");
+        System.out.println(" This is a production-grade feature for:");
         System.out.println("   - Updating interest rates without deployment");
         System.out.println("   - A/B testing different rule sets");
         System.out.println("   - Fixing configuration errors quickly");
         
         // Test 6: Properties File Benefits
         printHeader("Test 6: Properties File vs Hardcoded");
-        System.out.println("✅ Configuration Externalization Benefits:");
+        System.out.println(" Configuration Externalization Benefits:");
         System.out.println("   1. No code changes for rule updates");
         System.out.println("   2. Business teams can update rules");
         System.out.println("   3. Different environments (Dev/Prod) can have different rules");
@@ -120,7 +120,7 @@ public class TestAccountRulesEngineProperties {
         System.out.println();
         System.out.println("=".repeat(60));
         System.out.println("  ACTIVITY 14 TEST COMPLETED!");
-        System.out.println("  🎯 Configuration-Driven Architecture Achieved!");
+        System.out.println("   Configuration-Driven Architecture Achieved!");
         System.out.println("=".repeat(60));
     }
 }
